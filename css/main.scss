@@ -1,12 +1,21 @@
 $base-orange: #fb8f1d;
 $navbar_height: 60px;
+
 $button_height_padding: 8px;
 $button_width_padding: 43px;
 $button_border_radius: 8px;
 
+$font-size: 16px;
+$line-height: 19px;
+
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-size: $font-size;
+    line-height: $line-height;
 }
 
 #mynavbar {
@@ -16,9 +25,9 @@ $button_border_radius: 8px;
 .cust_button {
     background-color: white;
     border: 1px solid $base-orange;
-    border-radius: 8px;
+    border-radius: $button_border_radius;
     box-sizing: border-box;
-    padding: 8px 48px;
+    padding: $button_height_padding $button_width_padding;
 }
 
 #register {
