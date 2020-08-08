@@ -1,3 +1,5 @@
+$base-orange: #fb8f1d;
+
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +11,14 @@
 
 .cust_button {
     background-color: white;
-    border: 1px solid #fb8f1d;
+    border: 1px solid $base-orange;
     border-radius: 8px;
     box-sizing: border-box;
     padding: 8px 48px;
 }
 
 #register {
-    background: #fb8f1d;
+    background: $base-orange;
 }
 
 #navbar__ul li:nth-child(n + 2) {
